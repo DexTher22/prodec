@@ -1,0 +1,10 @@
+-- database: ../database.db
+
+create table products(
+  id integer not null primary key autoincrement,
+  name varchar(50),
+  price decimal(15,2),
+  quantity number,
+  description varchar(100)
+);
+
