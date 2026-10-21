@@ -1,0 +1,3 @@
+# prodec
+
+Gyümölcsök megjelenítése adatbázisból
