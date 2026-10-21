@@ -6,7 +6,7 @@ public class Fruit {
     private int price;
     private int quantity;
     private String description;
-    
+
     public Fruit() {
     }
     public Fruit(String name, int price, int quantity, String description) {
@@ -52,6 +52,12 @@ public class Fruit {
     public void setDescription(String description) {
         this.description = description;
     }
-
+    @Override
+    public String toString() {
+        return "Fruit [id=" + id + ", name=" + name + ", price=" + price + ", quantity=" + quantity + "]";
+    }
+    
+    
+    
     
 }

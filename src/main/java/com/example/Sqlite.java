@@ -20,5 +20,4 @@ public class Sqlite implements Database{
         return DriverManager.getConnection(url);
     }
     
-    
 }
